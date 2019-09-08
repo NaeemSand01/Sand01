@@ -1,0 +1,36 @@
+.log-header {
+  background-color: #43b2d4;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+}
+
+.log-card {
+  border: none;
+}
+
+.btn-default {
+  transition: all 0.3s ease-in-out;
+  background-color: #47bac1 !important;
+  border-color: #47bac1 !important;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus {
+  transition: all 0.3s ease-in-out;
+  background-color: #4d888b !important;
+  border-color: #4d888b !important;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .log-btn .btn-primary:hover,
+.log-btn .btn-primary:focus,
+.log-btn .btn-primary.active,
+.btn-primary:active {
+  background-color: #47bac1 !important;
+  border: 1px solid #47bac1 !important;
+} */

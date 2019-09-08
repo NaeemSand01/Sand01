@@ -1,0 +1,226 @@
+.topBar {
+  width: 100%;
+  display: inline-block;
+  min-height: 35px;
+  height: 10px;
+  background: #252525;
+}
+
+@media (min-width: 768px) {
+  .d-md-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* @media (min-width: 1200px) {
+  .container {
+    width: 1170px !important;
+    margin-bottom: -100px;
+  }
+} */
+
+.list-inline {
+  padding: 0;
+  list-style: none;
+}
+
+.topBar ul li a {
+  color: #797979;
+  padding: 0 3px;
+  display: inline-block;
+  line-height: 35px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .d-md-block {
+    display: block !important;
+  }
+}
+
+.float-right {
+  float: right !important;
+}
+
+.topBar ul .float-right li {
+  margin: 0 0 0 10px;
+  padding: 0;
+  float: left;
+  position: relative;
+}
+
+.topBar ul.float-right li a {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.top-right .account-login span button {
+  color: #f0f0f0;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+}
+
+.top-right .account-login span small {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 10px;
+}
+
+.top-right .searchBox button {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  padding: 0 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.fab {
+  padding-left: 10px;
+}
+
+.topBar ul.float-right > li:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  height: 24px;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.top-right .searchBox button i {
+  font-size: 16px;
+  width: 20px;
+}
+
+.fa-search:before {
+  content: "\f002";
+}
+.topBar ul.float-right > li.cart-dropdown {
+  margin-left: 3px;
+}
+.car-item-text {
+  font-size: 39px;
+}
+
+.cart-dropdown .dropdown-menu {
+  background-color: #47bac1;
+}
+
+.top-right .cart-dropdown a,
+.cart-dropdown a {
+  text-decoration: none !important;
+  background-color: #47bac1;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: -4px;
+  line-height: 35px;
+  min-height: 36px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.topBar ul.float-right > li.cart-dropdown {
+  margin-left: 3px;
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.top-right .cart-dropdown a i,
+.cart-dropdown a i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+.top-right .cart-dropdown ul.dropdown-menu li a,
+.cart-dropdown ul.dropdown-menu li a {
+  line-height: 26px;
+  display: block;
+}
+.car-item-text {
+  background-color: #47bac1;
+}
+
+.dropdown-menu-right .media {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+  align-items: flex-start;
+}
+
+.media-left {
+  float: left;
+  padding-right: 10px;
+}
+.media-body {
+  flex: 1;
+}
+
+.top-right .cart-dropdown ul.dropdown-menu li:first-child,
+.cart-dropdown ul.dropdown-menu li:first-child {
+  color: #fff;
+  padding: 10px 0 8px 19px;
+}
+
+a .media .media-body h5 {
+  color: #fff;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+a .media .media-body h5 span {
+  font-size: 18px;
+}
+
+.cart-dropdown ul.dropdown-menu li .btn-group {
+  padding: 14px 19px;
+}
+
+.cart-dropdown ul.dropdown-menu li .btn-group .btn {
+  border: 0;
+  height: 36px;
+  padding: 0;
+  line-height: 36px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 4px !important;
+  color: #222222;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 480px) {
+  .top-right .cart-dropdown ul.dropdown-menu li .btn-group button:first-child,
+  .cart-dropdown ul.dropdown-menu li .btn-group button:first-child {
+    width: 149px;
+  }
+}
+
+@media (min-width: 480px) {
+  .top-right .cart-dropdown ul.dropdown-menu li .btn-group button:last-child,
+  .cart-dropdown ul.dropdown-menu li .btn-group button:last-child {
+    width: 109px;
+  }
+}
+
+.top-right .cart-dropdown ul.dropdown-menu li .btn-group button:last-child,
+.cart-dropdown ul.dropdown-menu li .btn-group button:last-child {
+  margin-left: 8px;
+}
+
+.media img {
+  width: 25%;
+}

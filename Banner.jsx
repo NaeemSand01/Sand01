@@ -33,7 +33,6 @@ class Banner extends Component {
                 <div className="mask rgba-black-light" />
               </div>
               <div className="carousel-caption banner-1">
-                {/* <figcaption data-qa="card-overlay"></figcaption> */}
                 <div className="banner-text-1">
                   <h3>Summer Hat</h3>
                 </div>
@@ -60,9 +59,21 @@ class Banner extends Component {
                 />
                 <div className="mask rgba-black-strong" />
               </div>
-              <div className="carousel-caption">
-                <h3 className="h3-responsive">Strong mask</h3>
-                <p>Secondary text</p>
+              <div className="carousel-caption banner-2">
+                <div className="banner-text-1">
+                  <h3>Ladies Backpack</h3>
+                </div>
+                <div>
+                  <h3 className="banner-text-2">Starts From - $259.00</h3>
+                </div>
+
+                <div>
+                  <span class="page-scroll">
+                    <a href="/" class="btn banner-1-btn primary-btn">
+                      Buy Now<i class="fa fa-chevron-right"></i>
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
             <div className="carousel-item">
@@ -75,9 +86,21 @@ class Banner extends Component {
                 />
                 <div className="mask rgba-black-slight" />
               </div>
-              <div className="carousel-caption">
-                <h3 className="h3-responsive">Slight mask</h3>
-                <p>Third text</p>
+              <div className="carousel-caption banner-3">
+                <div className="banner-text-1">
+                  <h3>Canvas Sneaker</h3>
+                </div>
+                <div>
+                  <h3 className="banner-text-2">Starts From - $259.00</h3>
+                </div>
+
+                <div>
+                  <span class="page-scroll">
+                    <a href="/" class="btn banner-1-btn primary-btn">
+                      Buy Now<i class="fa fa-chevron-right"></i>
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
           </div>

@@ -1,0 +1,77 @@
+.banner {
+  height: 550px;
+}
+
+@media (min-width: 480px) {
+  .banner {
+    height: 270px;
+  }
+}
+
+@media (min-width: 786px) {
+  .banner {
+    height: 450px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner {
+    height: 570px;
+  }
+}
+
+.banner-text-1 h3 {
+  color: rgb(17, 17, 17);
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner-text-2 {
+  font-size: 28px;
+  color: #704664;
+}
+
+.banner-1 {
+  margin-bottom: 150px;
+  margin-right: 200px;
+}
+
+.banner-text-3 {
+  line-height: 16px;
+  color: #252525;
+  font-size: 15px;
+  max-width: 150px;
+}
+
+.banner-1-btn {
+  margin-top: 15px;
+  border: 3px solid rgba(71, 186, 193, 0.5);
+  font-size: 20px !important;
+  font-weight: 600;
+}
+
+.fa-chevron-right {
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .banner-1 {
+    margin-bottom: 170px;
+    margin-right: 200px;
+    /* width: 200px; */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .banner-1 {
+    margin-bottom: 150px;
+    margin-right: 1400px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-1 {
+    margin-bottom: 120px;
+    margin-right: 200px;
+  }
+}

@@ -1,0 +1,95 @@
+.footerCarousel {
+  background-color: #f0f0f0;
+  height: 125px;
+}
+
+@media (min-width: 1200px) {
+  .footer-contain {
+    width: 1170 !important;
+  }
+}
+@media (min-width: 992px) {
+  .footer-contain {
+    width: 970;
+  }
+}
+@media (min-width: 768px) {
+  .footer-contain {
+    width: 750;
+  }
+}
+@media (min-width: 480px) {
+  .footer-contain {
+    width: 450;
+  }
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  width: 4662px;
+  transform: translate3d(-1776px, 0px, 0px);
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+
+.footerCarousel .partnerLogoSlider .slide {
+  width: 222px;
+  display: table;
+  height: 125px;
+}
+
+.slick-slide {
+  float: left;
+  min-height: 1px;
+}
+
+@media (min-width: 768px) {
+  .footerCarousel .partnerLogoSlider .slide .partnersLogo {
+    width: 270px;
+  }
+}
+
+@media (min-width: 480px) {
+  .footerCarousel .partnerLogoSlider .slide .partnersLogo {
+    width: 100%;
+  }
+}
+
+.footerCarousel .partnerLogoSlider .slide .partnersLogo {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center !important;
+}

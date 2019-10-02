@@ -1,0 +1,142 @@
+.caption h5 {
+  color: #252525;
+}
+
+.productContent .productBox {
+  height: auto;
+  display: block;
+  margin-bottom: 40px;
+  padding: 90px, 0, 60px;
+}
+
+@media (min-width: 768px) {
+  .mainContent .productContent {
+    padding: 90px, 0, 60px;
+  }
+}
+
+@media (min-width: 480px) {
+  .mainContent .productContent {
+    padding: 90px, 0, 0px;
+  }
+}
+
+.modal-cont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+}
+
+.modal-bod {
+  position: relative;
+  padding: 30px;
+  flex: 1 1 auto;
+}
+
+@media (min-width: 992px) {
+  .close {
+    font-size: 47px;
+  }
+}
+
+.close {
+  /* margin: 50; */
+  position: relative;
+  /* top: -2; */
+  right: 0;
+  padding: 5px 10px;
+  opacity: 0.2;
+  font-weight: 300;
+}
+
+@media (min-width: 992px) {
+  .media {
+    margin-right: 0;
+  }
+}
+
+.media {
+  margin-top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.media .media-left img {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.media .media-body {
+  overflow: visible;
+}
+
+.media-body {
+  flex: 1;
+}
+
+.media .media-body h2 {
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.media .media-body h3 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+.descrip {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.media-body .btn-area {
+  display: block;
+  width: 100%;
+}
+
+.btn-area .btn-warning {
+  padding: 0 30px;
+  font-weight: 400;
+  width: 196px;
+  height: 55px;
+  line-height: 55px;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  background-color: #47bac1;
+  border-color: #47bac1;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-area .btn-warning:hover,
+.btn-area .btn-warning:active {
+  padding: 0 30px;
+  font-weight: 400;
+  width: 196px;
+  height: 55px;
+  line-height: 55px;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  background-color: #2d7b80;
+  border-color: #2d7b80;
+  color: rgb(241, 241, 241);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-warning i {
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  font-size: 22px;
+}

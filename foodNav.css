@@ -1,0 +1,258 @@
+/* Parent div padding */
+@media (min-width: 768px) {
+  .navbar-default {
+    padding: 0;
+  }
+}
+
+/* Shadow and back color */
+.food-navbar-default {
+  background-color: rgb(48, 47, 47);
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+}
+.navbar {
+  position: relative;
+  width: 100%;
+}
+
+/* Nav bar container position */
+.navbar-default .container {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md > .container,
+  .navbar-expand-md > .container-fluid {
+    flex-wrap: nowrap;
+  }
+}
+
+.navbar > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .navbar-default .navbar-brand {
+    position: absolute;
+    z-index: 5;
+    padding: 0;
+  }
+}
+
+@media (min-width: 480px) {
+  .navbar-default .navbar-brand {
+    padding: 15px;
+  }
+}
+
+.vid-site-img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.navbar-brand {
+  width: auto;
+  height: auto;
+  transition: height 0.3s, width 0.3s;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-default .navbar-collapse {
+  padding-top: 19px;
+  width: 100%;
+  top: 100%;
+  background: rgb(48, 47, 47);
+}
+
+.food-nav-text span {
+  color: rgb(212, 212, 212);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 29px;
+  font-weight: 900;
+}
+
+.food-nav-text span:hover {
+  color: rgb(253, 154, 154);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 29px;
+  font-weight: 900;
+}
+
+/* Menu showing styles */
+
+@media (min-width: 768px) {
+  .navbar-default .navbar-collapse .navbar-nav.ml-auto {
+    margin: 0;
+    margin-right: -15px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav {
+    flex-direction: row;
+  }
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.navbar-nav {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* .navbar-nav a {
+  color: rgb(212, 212, 212);
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar-nav a:hover {
+  color: rgb(168, 22, 22);
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: ease-in-out 0.3s;
+} */
+
+.navbar-default .navbar-toggler {
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;
+  padding: 5px 8px;
+  outline: none;
+  margin-right: 15px;
+  margin-top: 8px;
+  color: rgb(168, 22, 22);
+  font-size: 22px;
+  position: absolute;
+  right: 0;
+  z-index: 555;
+  top: 12px;
+}
+
+.nav-title {
+  padding-right: 7px;
+  padding-left: 7px;
+  /* font-weight: 800; */
+}
+
+#foodLink {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease-in-out;
+}
+
+#foodLink:hover {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(243, 154, 21);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.food-nav-style .fa-bars {
+  color: rgb(243, 154, 21);
+}
+
+.food-nav-style .fa-times {
+  color: rgb(243, 154, 21);
+}
+
+.vid-card {
+  margin-bottom: 30px;
+}
+
+.top-menu-container {
+  position: relative;
+  height: 46px;
+  background: #e66969;
+  z-index: 1;
+  margin: 0;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.top-menu-container .top-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.width-wrap {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 960px;
+}
+
+@media only screen and (min-width: 1366px) {
+  .width-wrap {
+    max-width: 1346px;
+  }
+}
+
+.top-menu_side-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 40px;
+}
+
+.nav-element {
+  order: 1;
+}
+
+.nav-element > a {
+  display: block;
+  padding: 5px 10px;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav-element.current > a {
+  border-bottom: 3px solid #e34449;
+}
+
+.vid-heading {
+  overflow: hidden;
+  margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #303030;
+  font-weight: 700;
+}
+
+.vid-heading-text {
+  display: inline-block;
+  font-size: 37px;
+  line-height: 28px;
+  color: #303030;
+  font-weight: 700;
+}

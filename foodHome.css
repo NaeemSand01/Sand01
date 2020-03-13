@@ -1,0 +1,507 @@
+.food-hero {
+  background-image: url("https://www.tripsavvy.com/thmb/p-jiJnMeeXwYNVKPtjkjf-jy0uU=/5100x2869/smart/filters:no_upscale()/arroyo-seco-bridge-pasadena-175492674-58c396f95f9b58af5cc2b3e0.jpg");
+  background-size: cover;
+  height: 528px;
+  /* margin-top: 30px; */
+  padding-top: 60px;
+  /* position: relative; */
+  text-align: center;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.food-hero-img {
+  /* margin-top: 80px; */
+  height: 380px;
+}
+
+@media (min-width: 768px) {
+  .food-hero-img {
+    /* margin-top: 80px; */
+    height: 608px;
+  }
+}
+
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  font-size: 40px;
+  font-weight: 900;
+  /* color: white; */
+  color: white;
+  letter-spacing: 0px;
+  font-family: garamond;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .welcome-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 750px;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-weight: 900;
+    /* color: white; */
+    color: white;
+    letter-spacing: 0px;
+    font-family: garamond;
+  }
+}
+
+/* Social Row Styles */
+
+.food-share-container {
+  background: rgb(230, 138, 0);
+  padding: 10px 8px 10px 15px;
+  position: absolute;
+  right: 20%;
+  top: 66%;
+  height: 50px;
+  display: inline-block;
+  width: 240px;
+}
+
+.food-share-container-expand {
+  background: rgb(230, 138, 0);
+  padding: 10px 8px 10px 15px;
+  position: absolute;
+  right: 20%;
+  top: 66%;
+  height: 50px;
+  display: inline-block;
+  width: 340px;
+}
+
+@media (min-width: 768px) {
+  .food-share-container {
+    background: rgb(230, 138, 0);
+    padding: 10px 8px 10px 15px;
+    position: absolute;
+    right: 10%;
+    top: 95%;
+    height: 50px;
+    display: inline-block;
+    width: 240px;
+  }
+
+  .food-share-container-expand {
+    background: rgb(230, 138, 0);
+    padding: 10px 8px 10px 15px;
+    position: absolute;
+    right: 10%;
+    top: 92%;
+    height: 50px;
+    display: inline-block;
+    width: 340px;
+  }
+}
+
+.link-icon .fa-envelope {
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  left: 6%;
+  top: 17%;
+}
+
+.link-icon .fa-envelope:hover {
+  position: absolute;
+  color: #d42a2a;
+  font-size: 30px;
+  left: 6%;
+  top: 17%;
+}
+
+.link-icon-expand .fa-envelope {
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  left: 4%;
+  top: 17%;
+}
+
+.link-icon-expand .fa-envelope:hover {
+  position: absolute;
+  color: #d42a2a;
+  font-size: 30px;
+  left: 4%;
+  top: 17%;
+}
+
+.food-share-sep {
+  position: absolute;
+  height: 35px;
+  width: 1px;
+  background: #000000;
+  left: 26%;
+  top: 17%;
+}
+
+.food-share-sep-expand {
+  position: absolute;
+  height: 35px;
+  width: 1px;
+  background: #000000;
+  left: 19%;
+  top: 17%;
+}
+
+.link-icon {
+  padding-left: 20px;
+}
+
+.link-icon .fa-facebook {
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  left: 52%;
+  top: 17%;
+}
+
+.link-icon .fa-facebook:hover {
+  position: absolute;
+  color: #111fe2;
+  font-size: 30px;
+  left: 52%;
+  top: 17%;
+}
+
+.link-icon-expand .fa-facebook {
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  left: 34%;
+  top: 17%;
+}
+
+.link-icon-expand .fa-facebook:hover {
+  position: absolute;
+  color: #111fe2;
+  font-size: 30px;
+  left: 34%;
+  top: 17%;
+}
+
+.link-icon .fa-twitter {
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  left: 30%;
+  top: 19%;
+}
+
+.link-icon .fa-twitter:hover {
+  position: absolute;
+  color: #11a8ff;
+  font-size: 30px;
+  left: 30%;
+  top: 19%;
+}
+
+.link-icon-expand .fa-twitter {
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  left: 21%;
+  top: 19%;
+}
+
+.link-icon-expand .fa-twitter:hover {
+  position: absolute;
+  color: #11a8ff;
+  font-size: 30px;
+  left: 21%;
+  top: 19%;
+}
+
+.link-icon-expand .fa-pinterest {
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  left: 48%;
+  top: 19%;
+}
+
+.link-icon-expand .fa-google-plus {
+  position: absolute;
+  color: #000000;
+  font-size: 32px;
+  left: 62%;
+  top: 18%;
+}
+
+.link-icon .fa-plus-circle {
+  position: absolute;
+  color: #000000;
+  font-size: 33px;
+  left: 78%;
+  top: 15%;
+  border: none;
+  outline: none;
+}
+
+.link-icon .fa-plus-circle:hover {
+  position: absolute;
+  color: #e4e4e4;
+  font-size: 33px;
+  left: 78%;
+  top: 15%;
+  border: none;
+  outline: none;
+}
+
+.link-icon-expand .fa-times-circle {
+  position: absolute;
+  color: #000000;
+  font-size: 33px;
+  left: 87%;
+  top: 15%;
+  border: none;
+  outline: none;
+}
+
+.link-icon-expand .fa-times-circle:hover {
+  position: absolute;
+  color: #e4e4e4;
+  font-size: 33px;
+  left: 87%;
+  top: 15%;
+  border: none;
+  outline: none;
+}
+
+.plus-btn {
+  background: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.plus-btn:focus {
+  background: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+/* End Social Row Style */
+
+.food-subheader {
+  background-color: rgb(48, 47, 47);
+  display: block;
+  box-sizing: border-box;
+  flex: 1 1 100%;
+  order: 3;
+}
+
+@media (min-width: 960px) {
+  .food-subheader {
+    padding: 47px 40px;
+  }
+}
+
+.food-sub {
+  padding-top: 30px;
+  margin-left: 150px;
+  /* margin-right: 600px; */
+  max-width: 100%;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .food-sub {
+    padding-top: 30px;
+    margin-left: 600px;
+    /* margin-right: 600px; */
+    max-width: 100%;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+  }
+}
+
+.food-sub-2 {
+  padding-top: 30px;
+  margin-left: 100px;
+  /* margin-right: 600px; */
+  max-width: 100%;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .food-sub-2 {
+    padding-top: 30px;
+    margin-left: 530px;
+    /* margin-right: 600px; */
+    max-width: 100%;
+    color: white;
+    font-size: 18px;
+  }
+}
+
+.date-text {
+  padding-left: 6px;
+}
+
+.food-auth-text {
+  padding-left: 15px;
+}
+
+.food-sticky-section {
+  flex: 1 1 100%;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+  order: 3;
+  transform: 3d (0, 0, 0);
+  z-index: 100;
+  background-color: #adadad;
+}
+
+.food-sec {
+  background-color: #adadad;
+  border-bottom: 1px solid #353535;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.food-list-type-row {
+  margin: 16px 40px 16px 0;
+}
+
+@media (min-width: 960px) {
+  .food-grow {
+    -webkit-box-flex: 1;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 960px) {
+  .food-type-contain {
+    display: inline;
+    /* -webkit-box-align: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-end;
+    -webkit-box-pack: end;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal; */
+    /* display: flex; */
+    /* box-sizing: border-box;
+    flex-direction: row; */
+  }
+}
+
+@media (min-width: 960px) {
+  .food-type-sort {
+    flex-wrap: wrap;
+    margin-bottom: -8px;
+  }
+}
+
+.food-type-sort {
+  display: inline;
+  /* box-sizing: border-box;
+  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: end; */
+}
+
+.food-type-sort li {
+  display: inline;
+}
+
+@media (min-width: 960px) {
+  .food-sort-btn {
+    height: 35px;
+    margin-left: 930px;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    background-color: white;
+    border: none;
+    /* padding: 8px; */
+  }
+}
+
+@media (min-width: 960px) {
+  .food-sort-btn-2 {
+    height: 35px;
+    margin-left: 10px;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    background-color: white;
+    border: none;
+    /* padding: 8px; */
+  }
+}
+
+@media (min-width: 960px) {
+  .food-sort-btn-3 {
+    height: 35px;
+    margin-left: 10px;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    background-color: white;
+    border: none;
+    /* padding: 8px; */
+  }
+}
+
+.food-sort-text-up {
+  line-height: 32px;
+  margin: 0 16px;
+  color: #101820;
+  font: 13px/15px "Calibre-Medium";
+  text-transform: uppercase;
+  letter-spacing: 0.061em;
+  vertical-align: middle;
+}
+
+.food-sort-text-up-2 {
+  line-height: 32px;
+  margin-right: 10px;
+  color: #9b9b9b;
+  font: 13px/15px "Calibre-Medium";
+  text-transform: uppercase;
+  letter-spacing: 0.061em;
+  vertical-align: middle;
+}
+
+.map-card {
+  /* position: -webkit-sticky;
+  position: sticky; */
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  max-width: 800px;
+  max-height: 500px;
+  margin-bottom: 40px;
+  height: 450px;
+  width: 570px;
+  top: 40%;
+  /* top: 146.5%; */
+  margin-left: 920px;
+}

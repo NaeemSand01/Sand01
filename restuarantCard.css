@@ -1,0 +1,160 @@
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.rest-card {
+  position: relative;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  max-width: 800px;
+  max-height: 500px;
+  margin-bottom: 40px;
+  height: 280px;
+  margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .rest-card {
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    max-width: 750px;
+    max-height: 600px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    height: 310px;
+  }
+}
+
+.rest-card:hover {
+  border-top: 2px solid #b70038;
+  transition: 0.1s ease-in;
+}
+
+.rest-img::first-line:first-of-type {
+  height: 278px;
+  width: 340px;
+  
+}
+
+@media (min-width: 768px) {
+  .rest-img {
+    height: 309px;
+    width: 355px;
+
+  }
+}
+
+/* .img-square-wrapper {
+  width:
+} */
+
+.rest-row {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rest-btn {
+  background-color: transparent;
+  border: transparent;
+  color: #101820;
+  font-size: 11px;
+  /* line-height: 28px; */
+  /* font: 12px/28px "Calibre-Medium"; */
+  font-family: Calibre-Medium;
+  letter-spacing: 0.086em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.rest-title {
+  color: #101820;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+  /* font: 12px/28px "Calibre-Medium"; */
+  font-family: Calibre-Medium;
+  letter-spacing: 0.046em;
+  text-transform: uppercase;
+}
+
+.rest-title:hover {
+  border-bottom: 1px solid #b70038;
+}
+
+.rest-type-price-row {
+  padding-top: 9px;
+}
+
+.rest-type-text {
+  color: #656666;
+  font: 15px/24px "Calibre-Regular";
+  letter-spacing: 0.013em;
+}
+
+.rest-price-text {
+  color: #656666;
+  font: 15px/24px "Calibre-Regular";
+  letter-spacing: 0.013em;
+  /* padding-left: 5px; */
+}
+
+.rest-review-text {
+  color: #b70038;
+  font: 14px/20px "Calibre-Regular";
+  letter-spacing: 0.061em;
+}
+
+.rest-arrow-right-btn {
+  background-color: rgb(129, 129, 129);
+  border: transparent;
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  color: white;
+  border-radius: 50%;
+}
+
+.rest-arrow-right-btn:hover {
+  background-color: black;
+  border: transparent;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.rest-arrow-left-btn:hover {
+  background-color: black;
+  border: transparent;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.rest-arrow-left-btn {
+  background-color: rgb(129, 129, 129);
+  border: transparent;
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  color: white;
+  border-radius: 50%;
+}
